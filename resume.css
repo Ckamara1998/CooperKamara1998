@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(250, 243, 243);
+    background-color: rgb(243, 204, 204);
     color: black;
 }
 header{
@@ -42,19 +42,19 @@ li a:hover{
 .main-content{
     border: solid 2px;
     width: 50%;
-    height: 110vh;
+    height: 190vh;
     display: flex;
     margin: auto;
    margin-bottom: 100px;
     margin-top: 100px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 /* content one*/
 .content-one{
     
     border-right: solid 2px;
     width: 38%;
-    height: 110vh;
+    height: 190vh;
     background-color: aqua;
 }
 .content-roll{
@@ -122,4 +122,23 @@ hr{
     font-size: 20px;
     margin-left: 4px;
     margin-right: 4px;
+}
+/* education */
+.education{
+    display: flex;
+}
+.education p{
+    font-size: 15px;
+    margin-top: -10px;
+}
+.education .year{
+    margin-left: 130px;
+}
+.education-two{
+    margin-left: 20px;
+}
+/*media Quary*/
+
+@media only screen and (max-width:800px){
+    
 }
