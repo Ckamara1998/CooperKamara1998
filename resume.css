@@ -110,6 +110,7 @@ li.menu.seven{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
  margin-left: 150px;
+ flex-wrap: wrap;
 }
 hr{
     width: 450px;
@@ -117,11 +118,13 @@ hr{
     border: none;
     background-color: #22aa33;
     margin-top: -13px;
+    flex-wrap: wrap;
 }
 .content-two p{
     font-size: 20px;
     margin-left: 4px;
     margin-right: 4px;
+    flex-wrap: wrap;
 }
 /* education */
 .education{
@@ -130,6 +133,7 @@ hr{
 .education p{
     font-size: 15px;
     margin-top: -10px;
+    flex-wrap: wrap;
 }
 .education .year{
     margin-left: 130px;
@@ -139,6 +143,173 @@ hr{
 }
 /*media Quary*/
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:1440px){
+    .main-content{
+        border: solid 2px;
+        width: 60%;
+        height: 220vh;
+        display: flex;
+        margin: auto;
+       margin-bottom: 100px;
+        margin-top: 100px;
+        background-color: white;
+    }
+    .content-one{
     
+        border-right: solid 2px;
+        width: 38%;
+        height: 220vh;
+        background-color: aqua;
+    }
+}
+@media only screen and (max-width:1024px){
+    .main-content{
+        border: solid 2px;
+        width: 80%;
+        height: 220vh;
+        display: flex;
+        margin: auto;
+       margin-bottom: 100px;
+        margin-top: 100px;
+        background-color: white;
+    }
+    .content-one{
+    
+        border-right: solid 2px;
+        width: 38%;
+        height: 220vh;
+        background-color: aqua;
+    }
+}
+@media only screen and (max-width:768px){
+    .main-content{
+        border: solid 2px;
+        width: 95%;
+        height: 250vh;
+        display: flex;
+        margin: auto;
+       margin-bottom: 100px;
+        margin-top: 100px;
+        background-color: white;
+    }
+    .content-one{
+    
+        border-right: solid 2px;
+        width: 38%;
+        height: 250vh;
+        background-color: aqua;
+    }
+}
+@media only screen and (max-width:425px){
+    .main-content{
+        border: solid 2px;
+        width: 140%;
+        height: 270vh;
+        display: flex;
+        margin: auto;
+       margin-bottom: 100px;
+        margin-top: 100px;
+       position: absolute;
+       left: 20px;
+        background-color: white;
+    }
+    .content-one{
+    
+        border-right: solid 2px;
+        width: 38%;
+        height: 270vh;
+        background-color: aqua;
+    }
+    .content-roll h1{
+        font-size: 20px;
+        position: relative;
+        right: 20px;
+        top: 10px;
+    }
+    li.menu-section.ones{
+        margin-right: -10px;
+        
+    }
+    li.menu-section.two,
+    li.menu-section.three{
+        margin-right: 50px;
+        
+    }
+    li.menu.five,
+    li.menu.six,
+    li.menu.seven{
+        padding-right: 58px;
+    }
+    .content-two h1{
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+     margin-left: 100px;
+    }
+    hr{
+        width: 350px;
+        height: 2px;
+        border: none;
+        background-color: #22aa33;
+        margin-top: -13px;
+    }
+    .content-two p{
+        font-size: 15px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+}
+@media only screen and (max-width:375px){
+    .main-content{
+        border: solid 2px;
+        width: 135%;
+        height: 250vh;
+        display: flex;
+        margin: auto;
+       margin-bottom: 100px;
+        margin-top: 100px;
+        background-color: white;
+    }
+    .content-one{
+    
+        border-right: solid 2px;
+        width: 38%;
+        height: 250vh;
+        background-color: aqua;
+    }
+    .content-roll h1{
+        font-size: 18px;
+        position: relative;
+        right: 20px;
+        top: 10px;
+    }
+    li.menu-section.ones{
+        margin-right: -15px;
+        font-size: 14px;
+        
+    }
+    li.menu-section.two,
+    li.menu-section.three{
+        margin-right: 20px;
+        
+    }
+    .content-two p{
+        font-size: 12.5px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    hr{
+        width: 250px;
+        height: 2px;
+        border: none;
+        background-color: #22aa33;
+        margin-top: -13px;
+    }
+    li.menu-section-ones{
+        font-size: 15px;
+        position: relative;
+        right: 20px;
+    }
+    .education .year{
+        margin-left: 80px;
+    }
 }
